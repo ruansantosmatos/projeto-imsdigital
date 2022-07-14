@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="Styles-project/Estilo_Cadastro.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
+        <title>New Cadastro</title>
+    </head>
+    <body>
+        <div id="root_cadastro">
+            <div id="conteiner_principal">
+                <section id="info_cadastro">
+                    <h1>Cadastre-se agora</h1>
+                    <hr>
+                    <h5>Preencha todos os campos obrigatórios, reveja informações para certificar que estão corretas, após isso clique no botão <bdo>Register</bdo>.</h5>
+                    <h4>Atenção:</h4>
+                    <h5>Preencha os campos com informações válidas e atualizadas no endereço de email, todo e qualquer e-mail inválido não irar ser registrado.
+                        Escolha uma senha segura para evitar acessos não autorizados.
+                    </h5>
+                </section>
+                <hr>               
+                <section id="campos">
+                    <div id="subtitulo">
+                        <img src="Icones - Menu/user.png" alt="icone_login">
+                        <p id="titulo">Dados Pessoais</p>
+                    </div>
+                    <form id="F_campos" name="formulario_principal" action="Submit">
+                        <section id="dados_principais">
+                            <label>Nome de Usuário*</label>
+                            <input type="text" id="f_name">
+                            <label>Email*</label>
+                            <input type="email" id="f_email">
+                            <label>Data de Nascimento*</label>
+                            <input type="date" id="f_dataNascim">
+                            <label>Telefone*</label>
+                            <input type="number" id="f_telefone">
+                        </section>
+                        <section id="confirma_dados">
+                            <label>Confirmar Nome*</label>
+                            <input type="text" id="f_nome">
+                            <label>Confirmar Email*</label>
+                            <input type="email" id="f_confirm_Email">
+                            <label>Senha*</label>
+                            <input type="password" id="f_senha">
+                            <label>Confirmar Senha*</label>
+                            <input type="password" id="f_confirm_senha">
+                        </section>
+                        <button id="btn_registra">Registrar</button>     
+                    </form>
+                </section>
+            </div>
+        </div>
+    </body>
+</html>

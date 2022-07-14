@@ -1,0 +1,325 @@
+#main_frame{
+    background-color: #eee;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+
+/* #Formatação dos elementos que compõem o menu principal:*/
+.menu{
+    background-color: #0C2E59;
+    position:absolute;
+    width: 100%;
+    height: 70px;
+    top: 0px;
+    left: 0px;
+    transition: all 0.3s ease;
+}
+
+.menu a{
+    text-align: center;
+    padding: 25px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    color: rgb(247, 247, 247);
+    text-decoration: none;
+    flex: 1;
+}
+
+.menu a:hover{
+    color: #8a2be2;
+    font-size: 20px;
+    transition: 0.3s all ease;
+}
+
+#menu_items {display: flex;}
+
+/*Formatação da barra de pesquisa*/
+
+#root{
+    position: relative;
+    width: 100%;
+    top: 100px;
+}
+
+#menu_pesquisa{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#campo_pesquisa{
+    height: 45px;
+    width: 500px;
+    padding-left: 10px;
+    border: solid 2px rgb(122, 122, 122);
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+
+#Btn_pesquisa{
+    border: solid 1px rgb(3, 175, 243);
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    margin-left: 5px;
+    cursor: pointer;
+    background-image: url("../Icones - Menu/lupaSearch.png");
+    background-repeat: no-repeat;
+    background-size: 55px;
+    background-position: center;
+}
+
+/*Formatação do conteúdo principal*/
+
+#intro{
+    font-family: 'Arial', Helvetica, sans-serif;
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+}
+
+#intro div{
+    padding: 0px 20px 0px 20px;
+    width: 100%;
+    text-align: justify;
+    border: solid 1px #000000;
+    border-radius: 20px;
+    margin: 0px 20px 0px 20px;
+}
+
+/*Formatação da section-front*/
+
+#desenvolvimento{margin-top: 100px;}
+
+#desenvolvimento article{width: 100%;}
+
+.titulo{margin-left: 30px; margin-top:80px;}
+
+#section-front {
+    display: flex;
+    justify-content: space-around;
+}
+
+#section-front div{
+    display: flex;
+    align-items: center;
+    margin: 30px 20px 30px 20px;
+    height: 500px;
+    width: 390px;
+    padding: 0px 10px 0px 10px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 24px;
+}
+
+#div-html{
+    border: solid 2px #e9450a;
+    background-image: linear-gradient(-45deg, #EE7752, #E73C7E);
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+#div-html:hover{box-shadow: 10px 50px 40px #EE7752;}
+
+#div-css{
+    border: solid 2px #5ad3f1;
+    background-image: linear-gradient(-45deg, #2692c4, #1b8bd6);
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+#div-css:hover{box-shadow: 10px 50px 40px #23A6D5;}
+
+#div-js{
+    border: solid 2px #F0D62D;
+    background-image: linear-gradient(-45deg, #FAE85F,#F0E476);
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+#div-js:hover{box-shadow: 10px 50px 40px #FAE85F;}
+
+
+#section-back{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Formatação da section-back*/
+
+#section-back div{
+    display: flex;
+    align-items: center;
+    margin: 30px 20px 30px 20px;
+    height: 500px;
+    width: 390px;
+    padding: 0px 10px 0px 10px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 24px;
+}
+
+#div-C{
+    border: solid 2px #780483;
+    background-image: linear-gradient(-45deg, #b817ad, #d932f3);
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+#div-C:hover{box-shadow: 10px 50px 40px #d932f3;}
+
+#div-bancoDados{
+    border: solid 2px #13cf2cc7;
+    background-image: linear-gradient(-45deg, #8ebe97, #119623);
+    color: rgb(63, 61, 61);
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+#div-bancoDados:hover{box-shadow: 10px 50px 40px #10dd2bc7;}
+
+#div-lavavel{
+    border: solid 2px #f52900;
+    background-image: linear-gradient(-45deg, #F04B2B, #e42c07);
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}   
+
+#div-lavavel:hover{box-shadow: 10px 50px 40px #e42c07;}
+
+/*#Formatação do Footer:*/
+
+/*Primeira parte do footer*/
+#main_footer{
+    position: relative;
+    top: 300px;
+    background-color: #3c4447;
+}
+
+#main_footer a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    cursor: pointer;
+    line-height: 40px;
+    font-size: 20px;
+    transition: 0.3s all ease;
+}
+
+#main_footer a:hover{
+    color: #8a2be2;
+    transition: 0.3s all ease;
+}
+
+/*Segunda parte*/
+
+#contatosGerais{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#msgGeral{
+    max-width: 500px;
+    text-align: justify;
+    margin-left: 10px;
+    padding: 10px;
+    color: #fff;
+    font-size: 17px;
+}
+
+#contatos{
+    width: 40%;
+    display: flex;
+    padding: 10px;
+}
+
+#contatos div{flex: 1;}
+
+#contatos a,h3{font-size: 22px;}
+
+#cadastro{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    margin: 40px 0px 40px 0px; 
+}
+
+#btnNovoCadastro{
+    border: solid 1px #e2254b;
+    border-radius: 50px;
+    width: 160px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    background-color:#e2254b;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#btnNovoCadastro:hover{
+    width: 150px;
+    font-size: 15px;
+    border-color: #8a2be2;
+    transition: 0.3s all ease;
+}
+
+#cadastro h3{
+    color: white;
+    font-size: 30px;
+}
+
+/*Terceira parte*/
+
+#redes_sociais{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#redes_sociais img{
+    margin: 20px 0px 20px 0px;
+    width: 70px;
+    margin-right: 30px;
+    transition: 0.5s all ease;
+}
+
+#redes_sociais a{
+    text-decoration: none;
+    display: inline;
+}
+
+#redes_sociais a:hover{
+    font-size: 20px;
+    transition: 0.3s all ease;   
+}
+
+/*Quarta parte*/
+
+#Identidade_Page{
+    display: flex;
+    font-size: 15px;
+    background-color: #202626;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+}
+
+#Copyright{
+    color: rgb(133, 128, 128);
+    margin-right: 5px;
+}
+
+#Autor{color: white;}

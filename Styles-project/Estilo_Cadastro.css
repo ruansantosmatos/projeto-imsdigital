@@ -1,0 +1,87 @@
+
+body{
+    background-color: ghostwhite;
+    width: 100%;
+}
+
+#root_cadastro{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 18px;
+    background-color: ghostwhite;
+}
+
+#conteiner_principal{
+    height: 760px;
+    width: 810px;
+    margin: auto;
+    margin-top: 130px;
+    border: solid 1px;
+    border-color: rgb(131, 131, 131);
+    box-shadow: 1px 1px 10px rgb(131, 131, 131);
+    border-radius: 25px;
+}
+
+#info_cadastro{
+    padding-left: 10px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#titulo{
+    display: inline;
+    margin-left: 10px;
+}
+
+#subtitulo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    color: rgb(0, 216, 216);
+}
+
+#campos{
+    width: 790px;
+    height: 380px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#campos input{
+    padding-left: 10px;
+    height: 30px;
+    width: 300px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    display: block;
+    border-radius: 10px;
+    border: solid 2px rgb(131, 131, 131);
+}
+
+
+#F_campos{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    justify-items: center;
+}
+
+#alt_login{
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#btn_registra{
+    height: 50px;
+    width: 320px;
+    border-radius: 10px;
+    background-color: black;
+    border-color: black;
+    color: white;
+    margin-top: 20px;
+    margin-left: 94%;
+    cursor: pointer;
+}

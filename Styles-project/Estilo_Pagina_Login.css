@@ -1,0 +1,100 @@
+#container_root{
+    background-color: ghostwhite;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+}
+
+#title{
+    padding-left: 25px;
+}
+
+#frame_cadastro{
+    height: 600px;
+    width: 380px;
+    margin: auto;
+    margin-top: 5%;
+    border: solid 1px;
+    border-color: rgb(131, 131, 131);
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 1px 1px 10px rgb(131, 131, 131);
+    color: black;
+}
+
+#form_login label{
+    font-size: 16px;
+    margin-left: 25px;
+    margin-bottom: 12px;
+}
+
+#form_login input{
+    margin-left: 25px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    height: 50px;
+    width: 300px;
+    display: block;
+    border-radius: 10px;
+    border: solid 2px rgb(131, 131, 131);
+}
+
+#RecuperaSenha{
+    display: block;
+    margin-left: 134px;
+    margin-top: 25px;
+    color: blueviolet;
+}
+
+#btnAvancar{
+    height: 55px;
+    width: 320px;
+    display: block;
+    border-radius: 10px;
+    background-color: black;
+    border-color: black;
+    color: white;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    cursor: pointer;
+}
+
+#titleAltLogin{
+    padding-left: 25px;
+}
+
+#iconesLogin{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#iconesLogin img{
+    width: 45px; 
+    margin-left: 25px;
+}
+
+#iconesLogin a{
+    width: 100%;
+    text-decoration: none;
+    transition: 0.3s all ease;
+}
+
+#iconesLogin a:hover{
+    color: #8a2be2;
+    font-size: 20px;
+    transition: 0.3s all ease;
+}
+
+#DescricaoRedes{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;  
+}
+
+#DescricaoRedes h5{display: inline;}
